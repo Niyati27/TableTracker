@@ -31,7 +31,7 @@ cd TableTracker
 ```
 Configure the cloud services:
 
-Follow instructions in each subdirectory (aws, gcp, azure) for setting up respective cloud resources.
+Follow instructions in subdirectory for setting up project.
 Install dependencies and start the backend:
 ```bash
 cd server
@@ -45,18 +45,20 @@ Navigate to the public URLs provided by the S3 bucket (AWS), GCP bucket, or Azur
 Directory Structure
 ```bash
 tabletracker/
-├── aws/
-│   ├── client/          # Static frontend files for AWS S3
-│   ├── server/           # Backend setup for AWS EC2
-│   ├── database/          # MongoDB commands for DocumentDB
-├── gcp/
-│   ├── client/          # Static frontend files for GCP Storage
-│   ├── server/           # Backend setup for GCP instances
-│   ├── database/          # MongoDB Atlas setup and commands
-├── azure/
-│   ├── client/          # Static frontend files for Azure Blob
-│   ├── server/           # Backend setup for Azure VM
-│   ├── database/          # Cosmos DB for MongoDB setup
+├── client/
+│   ├── public/
+│   ├── src/
+│   ├── .gitignore
+│   ├── README.md
+│   ├── app.yaml
+│   ├── package-lock.json
+│   └── package.json
+├── server/
+│   ├── src/
+│   ├── .gitignore
+│   ├── README.md
+│   ├── package-lock.json
+│   └── package.json
 ```
 Reservation Page With Details
 <img width="1080" alt="Screenshot 2025-01-20 at 7 48 55 PM" src="https://github.com/user-attachments/assets/b0d3a0cf-259a-4900-9e44-258a67b73756" />
