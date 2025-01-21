@@ -58,4 +58,12 @@ tabletracker/
 │   ├── server/           # Backend setup for Azure VM
 │   ├── database/          # Cosmos DB for MongoDB setup
 ```
+Reservation Page With Details
+<img width="1080" alt="Screenshot 2025-01-20 at 7 48 55 PM" src="https://github.com/user-attachments/assets/b0d3a0cf-259a-4900-9e44-258a67b73756" />
+
+Sign Up/ Log In/ Booking/ Update Page
+<img width="1054" alt="Screenshot 2025-01-20 at 7 48 34 PM" src="https://github.com/user-attachments/assets/4f740443-f4f8-43b9-9938-ec6edb986396" />
+
+Navigation Bar
+<img width="1032" alt="Screenshot 2025-01-20 at 7 48 42 PM" src="https://github.com/user-attachments/assets/0711f239-6caf-4e70-a95d-e7b93e046aa7" />
 
