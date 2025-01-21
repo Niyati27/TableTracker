@@ -8,7 +8,7 @@ This repository contains a table reservation system implemented across three clo
 **Authentication**: User sign-up, login, and session management.  
 **CRUD Operations**: Create, read, update, and delete reservations.  
 
-# Deployment Details
+# Cloud Details
 ### 1. AWS
 **Client**: Hosted on S3.  
 **Server**: Deployed on EC2 with the connection to DocumentDB.  
@@ -23,7 +23,7 @@ This repository contains a table reservation system implemented across three clo
 **Server**: Hosted on a Linux-based Virtual Machine, managed by PM2 for continuous availability.  
 **Database**: Cosmos DB for MongoDB, used for backend data operations.
 
-How to Run
+# How to Run
 Clone the repository:
 ```bash
 git clone https://github.com/Niyati27/TableTracker.git
@@ -38,8 +38,14 @@ cd server
 npm install
 npm start
 ```
-Access the frontend:
+Install dependencies and start the frontend:
+```bash
+cd client
+npm install
+npm start
+```
 
+Access the frontend:
 Navigate to the public URLs provided by the S3 bucket (AWS), GCP bucket, or Azure Blob Storage.
 
 Directory Structure
@@ -51,6 +57,7 @@ tabletracker/
 ├── server/
 │   ├── src/
 ```
+# Project Images
 Reservation Page With Details
 <img width="1080" alt="Screenshot 2025-01-20 at 7 48 55 PM" src="https://github.com/user-attachments/assets/b0d3a0cf-259a-4900-9e44-258a67b73756" />
 
