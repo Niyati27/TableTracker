@@ -48,17 +48,8 @@ tabletracker/
 ├── client/
 │   ├── public/
 │   ├── src/
-│   ├── .gitignore
-│   ├── README.md
-│   ├── app.yaml
-│   ├── package-lock.json
-│   └── package.json
 ├── server/
 │   ├── src/
-│   ├── .gitignore
-│   ├── README.md
-│   ├── package-lock.json
-│   └── package.json
 ```
 Reservation Page With Details
 <img width="1080" alt="Screenshot 2025-01-20 at 7 48 55 PM" src="https://github.com/user-attachments/assets/b0d3a0cf-259a-4900-9e44-258a67b73756" />
